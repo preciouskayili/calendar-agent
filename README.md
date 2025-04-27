@@ -52,20 +52,6 @@ export OPENAI_API_KEY=your-api-key-here
 
 ## Usage
 
-### Basic Example
-
-```python
-from agents import CalendarAgent
-
-# Initialize the agent
-agent = CalendarAgent(openai_api_key="your-api-key")
-
-# Schedule a meeting using natural language
-result = agent.schedule_meeting(
-    "Schedule a meeting with ted@gmail.com for next Wednesday on Google Meet"
-)
-```
-
 ### Running the Example Script
 
 ```bash
